@@ -1,0 +1,14 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "useTabs": true,
+  "tabWidth": 2,
+  "overrides": [
+    {
+      "files": ".babelrc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}

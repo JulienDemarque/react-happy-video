@@ -1,0 +1,39 @@
+{
+	"name": "react-happy-video",
+	"version": "1.0.0",
+	"description": "stylish low-config react video player ",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "babel lib -d build",
+		"lint": "eslint lib/**; exit 0",
+		"lint:watch": "esw -w lib/**",
+		"prepublish": "npm run build"
+	},
+	"dependencies": {
+		"styled-components": "^4.1.1"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-eslint": "^10.0.1",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-react": "^6.24.1",
+		"eslint": "^5.9.0",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-config-prettier": "^3.3.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-jsx-a11y": "^6.1.2",
+		"eslint-plugin-prettier": "^3.0.0",
+		"eslint-plugin-react": "^7.11.1",
+		"prop-types": "^15.6.2",
+		"randomstring": "^1.1.5",
+		"react": "^16.6.3",
+		"react-dom": "^16.6.3"
+	},
+	"peerDependencies": {
+		"react": "^16.6.3",
+		"react-dom": "^16.6.3"
+	},
+	"author": "Julien Demarque",
+	"license": "MIT"
+}
