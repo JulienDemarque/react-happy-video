@@ -11,14 +11,14 @@ $ npm i react-happy-video
 ### Usage
 
 ```
-import VideoPlayer from "react-happy-video";  
+import VideoPlayer from "react-happy-video";
 ```
 
 ```
 const YourComponent = () => {
   return (
     <VideoPlayer
-        width="600"
+        width="600px"
         source="[your url]"
     />
   )
