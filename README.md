@@ -1,6 +1,7 @@
 # react-happy-player
 
 Welcome to react-happy-player, a low-config react component for a stylish video player. Intended to provide easy control on the video playback.
+See a [demo][1].
 
 ### Install
 
@@ -38,3 +39,5 @@ const YourComponent = () => {
 - Edit the react-happy-player library
 
 The MIT License (MIT) Copyright (c) 2018 Julien Demarque
+
+[1]: https://distracted-shaw-6cfb30.netlify.com/
