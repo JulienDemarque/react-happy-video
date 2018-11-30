@@ -19,6 +19,7 @@ const YourComponent = () => {
   return (
     <VideoPlayer
         width="600px"
+        color:"#3b3346"
         source="[your url]"
     />
   )
