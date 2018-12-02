@@ -1,4 +1,4 @@
-# react-happy-player
+# react-happy-video
 
 Welcome to react-happy-player, a low-config react component for a stylish video player. Intended to provide easy control on the video playback.
 See a [demo][1].
