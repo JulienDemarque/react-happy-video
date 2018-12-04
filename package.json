@@ -1,6 +1,6 @@
 {
 	"name": "react-happy-video",
-	"version": "1.4.1",
+	"version": "1.4.2",
 	"description": "stylish low-config react video player ",
 	"main": "build/index.js",
 	"scripts": {
@@ -42,5 +42,21 @@
 		"react-dom": "^16.6.3"
 	},
 	"author": "Julien Demarque",
+	"keywords": [
+		"react",
+		"stylish",
+		"low-config",
+		"video",
+		"video-react",
+		"react-video",
+		"player",
+		"component",
+		"components",
+		"react-component",
+		"react-components",
+		"react component",
+		"react components",
+		"ui"
+	],
 	"license": "MIT"
 }
