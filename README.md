@@ -5,14 +5,14 @@ See a [demo][1].
 
 ### Install
 
-```
+```sh
 $ npm i react-happy-video
 ```
 
 ### Usage
 
-```
-import VideoPlayer from "react-happy-video";
+```javascript
+import VideoPlayer from 'react-happy-video';
 ```
 
 ```jsx
