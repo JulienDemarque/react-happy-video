@@ -1,4 +1,4 @@
-# react-happy-video [![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
+# react-happy-video [![Build Status](https://travis-ci.com/JulienDemarque/react-happy-video.svg?branch=master)](https://travis-ci.com/JulienDemarque/react-happy-video)
 
 Welcome to react-happy-player, a low-config react component for a stylish video player. Intended to provide easy control on the video playback.
 See a [demo][1].
