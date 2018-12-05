@@ -9,6 +9,7 @@
 		"test": "jest --verbose false",
 		"test:watch": "jest --verbose false --watch",
 		"coverage": "jest --coverage",
+		"coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
 		"lint": "eslint lib/**; exit 0",
 		"lint:watch": "esw -w lib/**",
 		"prepublish": "npm run build"
@@ -30,6 +31,7 @@
 		"babel-preset-env": "^1.7.0",
 		"babel-preset-es2015": "^6.24.1",
 		"babel-preset-react": "^6.24.1",
+		"coveralls": "^3.0.2",
 		"enzyme": "^3.7.0",
 		"enzyme-adapter-react-16": "^1.7.0",
 		"eslint": "^5.9.0",
