@@ -9,7 +9,7 @@
 		"test": "jest --verbose false",
 		"test:watch": "jest --verbose false --watch",
 		"coverage": "jest --coverage",
-		"coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+		"coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
 		"lint": "eslint lib/**; exit 0",
 		"lint:watch": "esw -w lib/**",
 		"prepublish": "npm run build"
