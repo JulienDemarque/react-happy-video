@@ -15,7 +15,7 @@ $ npm i react-happy-video
 import VideoPlayer from "react-happy-video";
 ```
 
-```
+```jsx
 const YourComponent = () => {
   return (
     <VideoPlayer
