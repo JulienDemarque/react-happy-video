@@ -54,6 +54,7 @@
 		"setupTestFrameworkScriptFile": "<rootDir>/test-setup.js",
 		"collectCoverageFrom": [
 			"lib/**/**/*.js",
+			"!lib/components/VideoPlayer/index.js",
 			"!lib/index.js",
 			"!lib/**/**/styles.js"
 		]
